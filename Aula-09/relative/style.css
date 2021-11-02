@@ -1,0 +1,32 @@
+body{
+    background-color: #474747;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.pulse{
+    position: relative;
+    background: none;
+    border: none;
+    color: #ff760c;
+    border: 2px solid;
+    margin: 100px;
+    left: 300px;
+    padding: 15px 40px;
+    transition: 0.25s;
+}
+
+.pulse:hover, .pulse:focus{
+    color: #2d8bf7;
+    border-color: #6ebbef;
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0); /*Sombra no botão*/
+    animation: pulsar 1s;
+}
+
+/* Criando a animação*/
+@keyframes pulsar {
+    0%{
+        box-shadow: 0 0 0 0 #6ebbef;
+    }
+}
