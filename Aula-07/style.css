@@ -2,9 +2,13 @@
     background-image: url("../Aula-07/images/hcode-treinamentos-1.svg");
 }
 
-/* .pagina .bloco { */
-.pagina > .bloco {
+.pagina .bloco {
     width: 500px;
     height: 500px;
     border: 1px solid #000000;
+    background-color: yellow;
+}
+
+.bloco{
+    background-color: aqua;
 }
